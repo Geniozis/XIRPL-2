@@ -269,7 +269,7 @@ body {
 
   /* card prestasi & card galery */
   .card-galeri {
-    padding-bottom: 8%;
+    padding-bottom: 5%;
     padding-top: 20%;
     height: 600px;
     flex-wrap: wrap;
