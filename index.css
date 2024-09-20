@@ -286,7 +286,7 @@ body {
   .tgl-prestasi{
     display: flex;
     justify-content: end;
-    font-size: 14px;  
+    padding: 20px 5px 10px;
   }
   .box-galeri{
     border: 1px solid rgb(205, 205, 205);
