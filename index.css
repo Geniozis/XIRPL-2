@@ -108,10 +108,24 @@ body {
   }
 
   /* nav1 */
-  .geniozis {
+  .geniozis-logo{
     display: flex;
     align-items: center;
     gap: 10px;
+  }
+  .geniozis {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+   }
+  .akun{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
   }
   .geniozis-popup{
     cursor: pointer;
@@ -155,6 +169,7 @@ body {
     width: 100%;
     z-index: 1000;
     display: flex;
+    justify-content: space-between;
     gap: 10px;
     align-items: center;
     padding: 10px 20px;
@@ -270,7 +285,7 @@ body {
   /* card prestasi & card galery */
   .card-galeri {
     padding-bottom: 5%;
-    padding: 20% 10px 10px;
+    padding: 7% 10px 10px;
     height: 600px;
     flex-wrap: wrap;
     font-family: 'Open Sans', sans-serif;
@@ -282,11 +297,12 @@ body {
   }
   .isi-prestasi{
     padding: 10px;
+    text-align: center;
   }
   .tgl-prestasi{
     display: flex;
     justify-content: end;
-    padding: 20px 5px 10px;
+    padding: 20px 5px 0px;
   }
   .box-galeri{
     border: 1px solid rgb(205, 205, 205);
@@ -468,6 +484,9 @@ body {
 @media (max-width: 374px) {
   #menu-i {
     font-size: 25px;
+  }
+  .geniozis-pc{
+    height: 500px;
   }
 }
 
