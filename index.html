@@ -66,11 +66,16 @@
 
   <!-- nav1 -->
   <header>
-    <div class="geniozis" id="open-geniozis">
-      <img src="aset/logorpl.jpg" height="40" width="40" style="border-radius: 50%;" style="border: 2px solid white;" />
+    <div class="geniozis">
+    <div class="geniozis-logo">
+      <img src="aset/logorpl.jpg" height="40" width="40" style="border-radius: 50%;" style="border: 2px solid white;"  id="open-geniozis" />
       <div class="gen-kelas">
         <p style="color: white; font-size: 15px; font-weight: bold; margin-bottom: 3px;">Geniozis</p>
         <p style="color: white; font-size: 9px;">XI RPL 2</p>
+      </div>
+    </div>
+      <div class="akun">
+        <i class="ph ph-user-circle"></i>
       </div>
     </div>
     <div class="geniozis-popup">
@@ -88,6 +93,10 @@
           <p>XI RPL 2</p>
         </div>
         <div class="data-geniozis">
+          <h3>Motto</h3>
+          <p>Generation smart and creatif</p>
+        </div>
+        <div class="data-geniozis">
           <h3>Siswa</h3>
           <p>30 siswa</p>
         </div>
@@ -96,8 +105,8 @@
           <p>Bu Novizah</p>
         </div>
         <div class="data-geniozis">
-          <h3>Angkatan</h3>
-          <p>Angkatan pertama di smk nurul iman</p>
+          <h3>Sejarah</h3>
+          <p>Angkatan jurusan rpl pertama 2023</p>
         </div>
         <div class="data-geniozis">
           <h3>Created web</h3>
@@ -1109,7 +1118,7 @@
            <h3>congratulation dasha & ghathfaan</h3>
            <p style="font-size: 15px;">juara 3 lomba vlog mewakili smk nurul iman</p>
            <div class="tgl-prestasi">
-            <p>27 11 2023</p>
+            <p style=" font-size: 11px;  ">27-11-2023</p>
            </div>
           </div>
          </div>
@@ -1119,27 +1128,9 @@
 
 
     <script>
-      const komik = document.getElementById('komik');
-      komik.addEventListener("click", () => {
-        alert('cooming soon bray')
-      })
-
-      const cerpen = document.getElementById('cerpen');
-      cerpen.addEventListener("click", () => {
-        alert('cooming soon bray')
-      })
-
-      const bucin = document.getElementById('bucin');
-      const bucinPro1 = document.getElementById('bucin-pro1');
-      const bucinPro2 = document.getElementById('bucin-pro2');
-      bucin.addEventListener("click", () => {
-        alert('cooming soon bray')
-      })
-      bucinPro1.addEventListener("click", () => {
-        alert('cooming soon bray')
-      })
-      bucinPro2.addEventListener("click", () => {
-        alert('cooming soon bray')
+      const akun= document.querySelector('.akun');
+      akun.addEventListener('click', function(){
+        alert('Coming soon bray untuk memiliki akun')
       })
     </script>
 
