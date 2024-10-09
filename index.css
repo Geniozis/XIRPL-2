@@ -145,13 +145,18 @@ body {
     overflow: auto;
     background-color: white;
     width: 80%;
+    height: 70%;
     border-radius: 10px;
   }
   .data-geniozis{
     padding: 5px 10px 6px;
     background-color: white;
     width: 200px;
+    font-family: "Popins", sans-serif;
     margin-top: 10px;
+  }
+  .gen-kelas{
+    font-family: "Kanit", sans-serif;
   }
   .isi-geniozis{
     text-align: center;
@@ -169,7 +174,6 @@ body {
     height: 65px;
     z-index: 1000;
     display: flex;
-    font-family: "Kanit", sans-serif;
     justify-content: space-between;
     background-color: rgb(32, 32, 32);
     color: rgb(16, 16, 16);
