@@ -45,7 +45,7 @@ body {
 
   body {
     padding-bottom: 9%;
-    padding-top: 55px;
+    padding-top: 10px;
     background-color: white;
   }
 
@@ -182,16 +182,17 @@ body {
     border-radius: 0px 0px 10px 10px;
   }
   .poster-card1 {
-    height: 20%;
+    height: 23%;
     display: flex;
     width: 100%;
-    margin-bottom: 15px;
+    margin: 20px 0px 15px;
     display: flex;
-    padding: 0 5px 0;
+    padding: 12% 5px 0;
   }
 
   .poster-jpg {
     width: 100%;
+    height: 100%;
     border-radius: 20px;
   }
   /* popup card-item */
@@ -259,7 +260,7 @@ body {
   .card {
     overflow: auto;
     height: 100vh;
-    padding: 3% 5px 10%;
+    padding: 1% 5px 10%;
     flex-wrap: wrap;
     font-family: 'Open Sans', sans-serif;
     min-width: 100%;
@@ -316,7 +317,7 @@ body {
   }
   .image-prestasi{
     width: 100%;
-    height: 200px;
+    height: 160px;
     border-radius: 10px;
   }
   .all-PA{
