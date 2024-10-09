@@ -75,3 +75,27 @@ openG.addEventListener('click', function(){
 closeG.addEventListener('click', function(){
     popupG.style.display= "none";
 })
+
+// kunci web
+       // Mencegah klik kanan pada mouse
+       document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+    });
+
+    // Mencegah shortcut keyboard tertentu (misalnya Ctrl+S, Ctrl+P, dll)
+    document.addEventListener('keydown', function(e) {
+        // Mencegah kombinasi Ctrl + S (Save)
+        if (e.ctrlKey && e.key === 's') {
+            e.preventDefault();
+        }
+        // Mencegah kombinasi Ctrl + P (Print)
+        if (e.ctrlKey && e.key === 'p') {
+            e.preventDefault();
+        }
+        // Mencegah kombinasi Ctrl + U (View source code)
+        if (e.ctrlKey && e.key === 'u') {
+            e.preventDefault();
+        }
+        // Tambahkan kombinasi shortcut lain yang ingin dicegah
+    });
+
