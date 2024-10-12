@@ -88,9 +88,9 @@ closeG.addEventListener('click', function(){
 
 // kunci web
        // Mencegah klik kanan pada mouse
-    //    document.addEventListener('contextmenu', function(e) {
-    //     e.preventDefault();
-    // });
+       document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+    });
 
     // Mencegah shortcut keyboard tertentu (misalnya Ctrl+S, Ctrl+P, dll)
     document.addEventListener('keydown', function(e) {
