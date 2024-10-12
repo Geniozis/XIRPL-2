@@ -43,6 +43,16 @@ cardItems.forEach(card => {
     });
 });
 
+const artikelItem = document.querySelectorAll('.item-artikel');
+
+// Tambahkan event listener ke setiap card-item
+artikelItem.forEach(card => {
+    card.addEventListener('click', function() {
+        const popup = this.querySelector('.popup');
+        popup.style.display = 'flex'; // Tampilkan popup
+    });
+});
+
 // Tutup popup ketika tombol 'x' ditekan
 const closeButtons = document.querySelectorAll('.close');
 closeButtons.forEach(button => {
@@ -78,9 +88,9 @@ closeG.addEventListener('click', function(){
 
 // kunci web
        // Mencegah klik kanan pada mouse
-       document.addEventListener('contextmenu', function(e) {
-        e.preventDefault();
-    });
+    //    document.addEventListener('contextmenu', function(e) {
+    //     e.preventDefault();
+    // });
 
     // Mencegah shortcut keyboard tertentu (misalnya Ctrl+S, Ctrl+P, dll)
     document.addEventListener('keydown', function(e) {
