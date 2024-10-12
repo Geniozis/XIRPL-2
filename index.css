@@ -230,6 +230,16 @@ body {
   flex-direction: column;
   animation: scale .5s linear;
 }
+.popup-content_artikel {
+  border-radius: 10px;
+  max-width: 90%;
+  height: 100%;
+  overflow: auto;
+  width: 400px;
+  gap: 10px;
+  flex-direction: column;
+  animation: scale .5s linear;
+}
 @keyframes scale {
   0%{
     transform: scale(0.5);
@@ -237,8 +247,6 @@ body {
 }
 .artikel-popup{
   margin: 10px 5px 5px;
-  background-color: #e8eaed;
-  padding: 5px 10px 5px;
   border-radius: 10px;
 }
 .close {
@@ -329,6 +337,9 @@ body {
     overflow: auto;
   }
   .judul-prestasi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 0px 10px 5px;
     font-family: "Kanit", sans-serif;
     font-size: 23px;
@@ -353,6 +364,9 @@ body {
     font-family: "Kanit", sans-serif;
   }
   .judul-artikel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 4px 10px 5px;
     font-family: "Kanit", sans-serif;
     font-size: 23px;
