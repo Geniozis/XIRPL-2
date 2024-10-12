@@ -246,6 +246,13 @@ body {
   }
 }
 .artikel-popup{
+  background-color: rgb(235, 230, 230);
+  padding: 5px;
+  margin: 10px 5px 5px;
+  border-radius: 10px;
+}
+.artikel-screen{
+  padding: 5px;
   margin: 10px 5px 5px;
   border-radius: 10px;
 }
@@ -374,6 +381,7 @@ body {
     color: rgb(19, 51, 97);
   }
   .item-artikel{
+    
     min-width: 60%;
     margin: 0px 5px 0px;
   }
