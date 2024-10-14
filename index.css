@@ -361,6 +361,9 @@ body {
     justify-content: start;
     font-family: "Kanit", sans-serif;
   }
+  .card-prestasi a{
+    text-decoration: none;
+  }
   .card-artikel::-webkit-scrollbar{
     display: none;
   }
@@ -381,17 +384,19 @@ body {
     color: rgb(19, 51, 97);
   }
   .item-artikel{
-    
     min-width: 60%;
     margin: 0px 5px 0px;
   }
   .card-prestasi::-webkit-scrollbar {
     display: none;
   }
-
+  .judul-galery{
+    padding: 0px 9px 0px;
+    color: rgb(19, 51, 97);
+  }
   .cards {
     display: flex;
-    padding-top: 15%;
+    padding-top: 10%;
     flex-direction: column;
     gap: 15px;
   }
